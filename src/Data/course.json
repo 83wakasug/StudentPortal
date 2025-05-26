@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "subject": "English",
+    "title": "English for Beginners",
+    "level": "Beginner",
+    "shortDescription": "Learn basic English skills for everyday conversation.",
+    "fullDescription": "This comprehensive course covers all the fundamental skills needed to communicate in English including speaking, listening, reading, and writing. Ideal for beginners starting from zero.",
+    "url": "https://example.com/courses/english-for-beginners"
+  },
+  {
+    "id": 2,
+    "subject": "English",
+    "title": "Advanced English Grammar",
+    "level": "Advanced",
+    "shortDescription": "Master complex English grammar rules and usage.",
+    "fullDescription": "Dive deep into advanced grammar concepts such as conditionals, passive voice, reported speech, and nuanced sentence structures. Perfect for those looking to polish their English writing and speaking skills.",
+    "url": "https://example.com/courses/advanced-english-grammar"
+  },
+  {
+    "id": 3,
+    "subject": "Mathematics",
+    "title": "Basic Algebra",
+    "level": "Beginner",
+    "shortDescription": "Understand the fundamentals of algebra including variables and equations.",
+    "fullDescription": "Dive deep into algebraic concepts such as expressions, equations, functions, and graphing. This course lays a strong foundation for higher-level math courses.",
+    "url": "https://example.com/courses/basic-algebra"
+  },
+  {
+    "id": 4,
+    "subject": "Science",
+    "title": "Introduction to Biology",
+    "level": "Beginner",
+    "shortDescription": "Explore the basics of biology, including cells, genetics, and ecosystems.",
+    "fullDescription": "This course introduces the principles of biology, covering cell structure, genetics, evolution, and ecological systems. Perfect for students new to science.",
+    "url": "https://example.com/courses/introduction-to-biology"
+  },
+  {
+    "id": 5,
+    "subject": "History",
+    "title": "World History Overview",
+    "level": "Intermediate",
+    "shortDescription": "A broad overview of world history from ancient to modern times.",
+    "fullDescription": "Explore key events, civilizations, and cultural shifts throughout world history, from ancient civilizations to contemporary global issues.",
+    "url": "https://example.com/courses/world-history-overview"
+  },
+  {
+    "id": 6,
+    "subject": "Computer Science",
+    "title": "Introduction to Programming",
+    "level": "Beginner",
+    "shortDescription": "Learn programming basics using Python.",
+    "fullDescription": "Get started with programming by learning Python syntax, control structures, functions, and basic algorithms. No prior experience needed.",
+    "url": "https://example.com/courses/introduction-to-programming"
+  }
+]

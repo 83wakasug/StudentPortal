@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "New Library Opens on Campus",
+    "date": "2025-05-01",
+    "summary": "A brand new state-of-the-art library has opened to support student research and collaboration.",
+    "content": "The new library includes modern study areas, digital resources, and extended hours. It was inaugurated by the university dean and is open to all students and faculty members starting this week."
+  },
+  {
+    "id": 2,
+    "title": "Spring Semester Exam Schedule Announced",
+    "date": "2025-04-28",
+    "summary": "The university has released the official timetable for the upcoming semester exams.",
+    "content": "Students are advised to check their personalized exam schedules via the student portal. Additional guidelines regarding examination rules and identification requirements are also provided."
+  },
+  {
+    "id": 3,
+    "title": "Scholarship Applications Now Open",
+    "date": "2025-04-15",
+    "summary": "Applications for academic and need-based scholarships are now open for the upcoming academic year.",
+    "content": "Students can apply through the university website until June 15. Required documents include a transcript, recommendation letters, and a personal statement."
+  },
+  {
+    "id": 4,
+    "title": "Campus Cafeteria Launches New Healthy Menu",
+    "date": "2025-04-10",
+    "summary": "The cafeteria introduces a range of healthy and affordable meal options for students and staff.",
+    "content": "The new menu includes vegetarian and vegan dishes, locally sourced produce, and reduced sugar desserts. Feedback is encouraged via the campus app."
+  },
+  {
+    "id": 5,
+    "title": "Student Tech Fair 2025 Kicks Off",
+    "date": "2025-03-30",
+    "summary": "This year’s tech fair features innovative projects from students in computer science and engineering.",
+    "content": "Held in the main auditorium, the fair includes robotics demos, app showcases, and guest speakers from the tech industry. The event is free for all attendees."
+  }
+]
