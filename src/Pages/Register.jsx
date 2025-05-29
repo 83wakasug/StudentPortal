@@ -2,6 +2,8 @@ import React, { useState,useEffect } from 'react';
 import TextField from '@mui/material/TextField';
 import useFetchData from '../Component/useFetchData';
 import Autocomplete from '@mui/material/Autocomplete';
+import Button from '@mui/material/Button';
+
 
 const Register = () => {
    const subjectData = useFetchData('/Data/course.json');
@@ -32,7 +34,7 @@ const Register = () => {
 
   
   const onChangeEmail = (event) => {
-    setInput(event.target.value);
+    setEmail(event.target.value);
     if (event.target.value) {
       setEmailError(false);
     }
@@ -44,7 +46,7 @@ const Register = () => {
   };
  
   useEffect(() => {
-    if (subjectList && Array.isArray(subjectData)) {
+    if (subjectData  && Array.isArray(subjectData)) {
       // subjectだけを取り出す
       const subjects = subjectData.map(item => item.title);
       setSubjectList(subjects);
@@ -53,15 +55,15 @@ const Register = () => {
 
 
   const onChangeSubject = (event, value) => {
-    setSubject(event.target.value);
-    if (event.target.value) {　　　　　//入力されたらエラーを解除
+    setSubject(value);
+    if (value) {
       setSubjectError(false);
     }
   };
 
   const onBlurSubject = (event) => {
-    if (!event.target.value) {　　　　　//空欄ならエラーをtrueにする
-      setSubject(true);
+    if (!event.target.value) {
+      setSubjectError(true);
     }
   };
 
@@ -99,7 +101,10 @@ const Register = () => {
               helperText={subjectError ? "Chose course" : ""}
             />
           )}
-/>
+        />
+        <Button variant="contained" color="primary">
+          Submit
+      </Button>
     </div>
   )
 }
