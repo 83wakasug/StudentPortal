@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
 import {Link } from "react-router-dom";
-
+import useFetchData from './useFetchData';
 const CourseCard = () => {
 
-  const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch('/Data/course.json')
-      .then(response => response.json())
-      .then(data => setData(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
+
+  const data = useFetchData('/Data/course.json');
 
   if (!data) {
     return <div>Loading...</div>;
