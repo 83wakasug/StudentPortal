@@ -30,7 +30,6 @@ const Home = () => {
               <td><Link to="/register">Register</Link></td>
             </tr>
         </tbody>
-
       </Table>
     </div>
     </div>
