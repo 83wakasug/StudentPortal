@@ -76,6 +76,27 @@ const Register = () => {
     const onSubmit = (event) => {
 
       event.preventDefault(); 
+
+      let hasError = false;
+
+  if (!input.trim()) {
+    setInputError(true);
+    hasError = true;
+  }
+
+  if (!email.trim()) {
+    setEmailError(true);
+    hasError = true;
+  }
+
+  if (!subject) {  // nullもしくは空のチェック
+    setSubjectError(true);
+    hasError = true;
+  }
+
+  if (hasError) {
+    return;  // エラーあるなら送信処理しない
+  }
       const values = {
         name: input,
         email: email,
